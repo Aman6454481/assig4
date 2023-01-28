@@ -1,0 +1,34 @@
+//App.js
+import Headihg from "./component/Heading";
+import Sedtion1 from "./component/Sedtion1";
+import Section2 from "./component/section2";
+i
+export default function Headihg()
+{
+  return(
+    <>
+       <div className="App">
+         <Headihg></Headihg>
+       </div>
+    </>
+  );
+}
+
+
+//Section1.js
+import React from 'react'
+
+export default function Section2() {
+  return (
+    <div>Section2</div>
+  )
+}
+
+//Section2.js
+import React from 'react'
+
+export default function Sedtion1() {
+  return (
+    <div>Section1</div>
+  )
+}
